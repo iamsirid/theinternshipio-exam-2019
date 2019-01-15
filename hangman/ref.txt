@@ -1,0 +1,28 @@
+ACCEPT INPUT FROM THE COMMAND LINE IN NODE
+https://flaviocopes.com/node-input-from-cli/
+
+How to take two consecutive input with the readline module of node.js?
+https://stackoverflow.com/questions/36540996/how-to-take-two-consecutive-input-with-the-readline-module-of-node-js/38718053
+
+NPM readlineSync
+https://www.npmjs.com/package/readline-sync
+
+Node.js v11.6.0 Documentation - Readline
+https://nodejs.org/api/readline.html
+
+
+Object.keys()
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+
+NPM prompt
+https://www.npmjs.com/package/prompt
+
+How to check if character is a letter in Javascript?
+https://stackoverflow.com/questions/9862761/how-to-check-if-character-is-a-letter-in-javascript
+
+Javascript replace char at index
+https://gist.github.com/efenacigiray/9367920
+
+
+How to check whether a string contains a substring in JavaScript?
+https://stackoverflow.com/questions/1789945/how-to-check-whether-a-string-contains-a-substring-in-javascript
