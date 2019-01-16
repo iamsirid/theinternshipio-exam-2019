@@ -24,10 +24,10 @@ const play = (word, hint) => {
       `${showWord} score: ${score}  remaining wrong guess ${wrongGuessRemain}`
     );
 
-    let char = rs.question("Letter: ");
+    let char = rs.question("");
     char = char[0];
     if (!isLetter(char)) {
-      console.log("Enter only alphabet");
+      console.log("Enter only alphabet (A-Z,a-z)");
       guess();
       return;
     }
@@ -37,7 +37,7 @@ const play = (word, hint) => {
     if (indexes.length === 0) {
       wrongGuessRemain--;
       if (wrongGuessRemain <= 0) {
-        console.log("You loose");
+        console.log("You're lose");
       } else guess(char);
     } else {
       indexes.forEach(i => {
@@ -48,8 +48,8 @@ const play = (word, hint) => {
       if (showWord !== word) {
         guess();
       } else {
-        console.log(`You win with score ${score}`);
-        console.log(`Word is "${word}"`);
+        console.log(`You're win with score ${score}`);
+        console.log(`The word is "${word}"`);
       }
     }
   };
@@ -61,7 +61,7 @@ const selectCategory = categories => {
   let catIndex = null;
 
   const selectCatNum = () => {
-    selectCatQues = `Select Category (Type in number between 1 to ${
+    selectCatQues = `Select Category (Type number between 1 to ${
       categoryNames.length
     })\n`;
     categoryNames.forEach((e, i) => {
@@ -72,7 +72,7 @@ const selectCategory = categories => {
       !isNumber(catNum) ||
       (Number(catNum) < 1 || Number(catNum) > categoryNames.length)
     ) {
-      console.log(`Type in number between 1 to ${categoryNames.length}`);
+      console.log(`Type number between 1 to ${categoryNames.length}`);
       selectCatNum();
       return;
     }
