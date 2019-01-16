@@ -10,7 +10,19 @@ hangman
 
 เลือกหมวดหมู่ของคำ โดยพิมพ์เลขของหมวดหมู่ที่ต้องการเลือก
 
+```
+Select Category (Type number between 1 to 2)
+1). Countries in Europe
+2). US President
+> 1
+```
+
 หลังจากเลือกหมวดหมู่ จะได้คำที่สุ่มออกมาจากหมวดหมู่นั้น 1 คำพร้อมคำใบ้ (Hint)
+
+```
+Hint "Died during world war 2 "
+________ _. _________ score: 0  remaining wrong guess 10
+```
 
 โดยสามารถทายได้ที่ละ 1 ตัวอักษร (เฉพาะตัวอักษร a-z,A-Z)
 
