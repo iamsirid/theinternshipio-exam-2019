@@ -4,20 +4,25 @@ const { getRandomArrayElement } = require("./util");
 
 const { play, selectCategory } = require("./game");
 
+const Word = function(hint, word) {
+  this.hint = hint;
+  this.word = word;
+};
+
 let categories = {
   "Countries in Europe": [
-    { hint: "Leaving EU", word: "United Kingdom" },
-    { hint: "Napoleon", word: "France" },
-    { hint: "Holocaust", word: "Germany" },
-    { hint: "IKEA", word: "Sweden" },
-    { hint: "Mountainous", word: "Switzerland" }
+    new Word("Leaving EU", "United Kingdom"),
+    new Word("Napoleon", "France"),
+    new Word("Holocaust", "Germany"),
+    new Word("IKEA", "Sweden"),
+    new Word("Mountainous", "Switzerland")
   ],
   "US President": [
-    { hint: "First US President", word: "George Washington" },
-    { hint: "Civil War", word: "Abraham Lincoln" },
-    { hint: "Died during world war 2 ", word: "Franklin D. Roosevelt" },
-    { hint: "Served in US Navy during world war 2 ", word: "John F. Kennedy" },
-    { hint: "9/11 ", word: "George W. Bush" }
+    new Word("First US President", "George Washington"),
+    new Word("Civil War", "Abraham Lincoln"),
+    new Word("Died during world war 2 ", "Franklin D. Roosevelt"),
+    new Word("Served in US Navy during world war 2 ", "John F. Kennedy"),
+    new Word("9/11 ", "George W. Bush")
   ]
 };
 
