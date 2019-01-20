@@ -2,10 +2,24 @@
 
 ## วิธีการเล่น
 
-พิมพ์ hangman ใน command line
+Run hangman ใน terminal
+
+Windows
 
 ```
-hangman
+hangman-win
+```
+
+Mac
+
+```
+hangman-macos
+```
+
+Linux
+
+```
+hangman-linux
 ```
 
 เลือกหมวดหมู่ของคำ โดยพิมพ์เลขของหมวดหมู่ที่ต้องการเลือก
