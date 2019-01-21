@@ -1,7 +1,5 @@
 var fs = require("fs");
-// const jsdom = require("jsdom");
-// const { JSDOM } = jsdom;
-
+// const { JSDOM } = require("jsdom");
 // const { window } = new JSDOM("");
 
 // const { DOMParser } = window;
@@ -24,11 +22,6 @@ const xmlDoc = new DOMParser().parseFromString(xmlContent, "text/xml");
 function xmlToObj(cNode) {
   let obj = {};
   [...cNode.children].forEach(child => {
-    if (child.children.length !== 0) {
-      obj = { ...obj, [child.nodeName]: xmlToObj(child) };
-    } else {
-      obj = { ...obj, [child.nodeName]: child.textContent };
-    }
     if (child.attributes.length !== 0) {
       [...child.attributes].forEach(attr => {
         obj[child.nodeName] = {
@@ -36,6 +29,11 @@ function xmlToObj(cNode) {
           [attr.name]: attr.value
         };
       });
+    }
+    if (child.children.length !== 0) {
+      obj[child.nodeName] = { ...obj[child.nodeName], ...xmlToObj(child) };
+    } else {
+      obj[child.nodeName] = { ...obj[child.nodeName], ...child.textContent };
     }
   });
 
@@ -46,7 +44,7 @@ const jsonContent = xmlToObj(xmlDoc.children[0]);
 
 fs.writeFile(
   `./${fileNameWithoutPath}.json`,
-  JSON.stringify(jsonContent),
+  JSON.stringify(jsonContent, null, "\t"),
   err => {
     if (err) {
       return console.error(err);
