@@ -46,7 +46,7 @@ ________ _. _________ score: 0  remaining wrong guess 10
 
 ## การเพิ่ม Category ของคำ
 
-ข้อมูลของคำในแต่ละ Category จะถูกเก็บใน directory ชื่อ category โดยเป็นไฟล์ json ที่มีรูปแบบดังตัวอย่าง
+ข้อมูลของคำในแต่ละ Category จะถูกเก็บใน directory ชื่อ category โดยเป็นไฟล์ json ที่มีรูปแบบดังตัวอย่าง  
 USPresident.json
 
 ```
@@ -81,14 +81,14 @@ https://www.npmjs.com/package/readline-sync
 
 แหล่งข้อมูลที่ได้สืบค้นและได้นำมาประยุกต์ใช้กับโปรเจค Hangman
 
-How to check if character is a letter in Javascript?
+How to check if character is a letter in Javascript?  
 https://stackoverflow.com/questions/9862761/how-to-check-if-character-is-a-letter-in-javascript
 
-Javascript replace char at index
+Javascript replace char at index  
 https://gist.github.com/efenacigiray/9367920
 
-How to check whether a string contains a substring in JavaScript?
+How to check whether a string contains a substring in JavaScript?  
 https://stackoverflow.com/questions/1789945/how-to-check-whether-a-string-contains-a-substring-in-javascript
 
-How do you get a list of the names of all files present in a directory in Node.js?
+How do you get a list of the names of all files present in a directory in Node.js?  
 https://stackoverflow.com/questions/2727167/how-do-you-get-a-list-of-the-names-of-all-files-present-in-a-directory-in-node-j
