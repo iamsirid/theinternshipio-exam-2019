@@ -44,6 +44,32 @@ ________ _. _________ score: 0  remaining wrong guess 10
 
 เมื่อทายครบทุกตัวอักษรจะถือว่าชนะ และจบเกม
 
+## การเพิ่ม Category ของคำ
+
+ข้อมูลของคำในแต่ละ Category จะถูกเก็บใน directory ชื่อ category โดยเป็นไฟล์ json ที่มีรูปแบบดังตัวอย่าง
+USPresident.json
+
+```
+{
+  "name": "US President",
+  "words": [
+    { "hint": "First US President", "word": "George Washington" },
+    { "hint": "Civil War", "word": "Abraham Lincoln" },
+    { "hint": "Died during world war 2 ", "word": "Franklin D. Roosevelt" },
+    {
+      "hint": "Served in US Navy during world war 2 ",
+      "word": "John F. Kennedy"
+    },
+    { "hint": "9/11 ", "word": "George W. Bush" }
+  ]
+}
+
+```
+
+โดย name คือชื่อของ Category
+words คือ array ของข้อมูลแต่ละคำซึ่งประกอบด้วย hint (คำใบ้) และ word (คำที่ใช้เล่น)
+การเพิ่ม category ใหม่สามารถทำได้โดยเพิ่มไฟล์ .json (ชื่อไฟล์อะไรก็ได้) ลงใน directory category ตามรูปแบบข้างต้น
+
 ## Package
 
 Node Package ที่ได้ใช้
