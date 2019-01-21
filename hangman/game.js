@@ -57,22 +57,21 @@ const play = (word, hint) => {
 };
 
 const selectCategory = categories => {
-  categoryNames = Object.keys(categories);
   let catIndex = null;
 
   const selectCatNum = () => {
     selectCatQues = `Select Category (Type number between 1 to ${
-      categoryNames.length
+      categories.length
     })\n`;
-    categoryNames.forEach((e, i) => {
-      selectCatQues = selectCatQues.concat(`${i + 1}). ${e}\n`);
+    categories.forEach((e, i) => {
+      selectCatQues = selectCatQues.concat(`${i + 1}). ${e.name}\n`);
     });
     const catNum = rs.question(selectCatQues);
     if (
       !isNumber(catNum) ||
-      (Number(catNum) < 1 || Number(catNum) > categoryNames.length)
+      (Number(catNum) < 1 || Number(catNum) > categories.length)
     ) {
-      console.log(`Type number between 1 to ${categoryNames.length}`);
+      console.log(`Type number between 1 to ${categories.length}`);
       selectCatNum();
       return;
     }
@@ -80,7 +79,7 @@ const selectCategory = categories => {
   };
   selectCatNum();
 
-  return categories[categoryNames[catIndex]];
+  return categories[catIndex]["words"];
 };
 
 module.exports = {

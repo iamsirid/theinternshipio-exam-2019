@@ -1,0 +1,10 @@
+{
+  "name": "Countries in Europe",
+  "words": [
+    { "hint": "Leaving EU", "word": "United Kingdom" },
+    { "hint": "Napoleon", "word": "France" },
+    { "hint": "Holocaust", "word": "Germany" },
+    { "hint": "IKEA", "word": "Sweden" },
+    { "hint": "Mountainous", "word": "Switzerland" }
+  ]
+}

@@ -2,7 +2,7 @@
 
 ## วิธีการเล่น
 
-Run hangman ใน terminal
+Run คำสั่ง hangman ตาม OS ที่ใช้งานใน terminal
 
 Windows
 
@@ -48,7 +48,7 @@ ________ _. _________ score: 0  remaining wrong guess 10
 
 Node Package ที่ได้ใช้
 
-NPM readlineSync
+readlineSync
 https://www.npmjs.com/package/readline-sync
 
 ## References
@@ -63,3 +63,6 @@ https://gist.github.com/efenacigiray/9367920
 
 How to check whether a string contains a substring in JavaScript?
 https://stackoverflow.com/questions/1789945/how-to-check-whether-a-string-contains-a-substring-in-javascript
+
+How do you get a list of the names of all files present in a directory in Node.js?
+https://stackoverflow.com/questions/2727167/how-do-you-get-a-list-of-the-names-of-all-files-present-in-a-directory-in-node-j

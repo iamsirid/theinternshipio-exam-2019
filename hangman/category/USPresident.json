@@ -1,0 +1,13 @@
+{
+  "name": "US President",
+  "words": [
+    { "hint": "First US President", "word": "George Washington" },
+    { "hint": "Civil War", "word": "Abraham Lincoln" },
+    { "hint": "Died during world war 2 ", "word": "Franklin D. Roosevelt" },
+    {
+      "hint": "Served in US Navy during world war 2 ",
+      "word": "John F. Kennedy"
+    },
+    { "hint": "9/11 ", "word": "George W. Bush" }
+  ]
+}
