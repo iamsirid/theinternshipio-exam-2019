@@ -37,7 +37,7 @@ https://www.npmjs.com/package/jsdom
 
 ## References
 
-แหล่งข้อมูลที่ได้สืบค้น
+แหล่งข้อมูลที่ได้สืบค้นและได้นำมาประยุกต์ใช้กับโปรเจค Weather
 
 How do I pass command line arguments to a Node.js program?
 https://stackoverflow.com/questions/4351521/how-do-i-pass-command-line-arguments-to-a-node-js-program
