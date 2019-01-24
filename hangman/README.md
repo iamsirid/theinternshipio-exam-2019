@@ -22,6 +22,12 @@ Linux
 hangman-linux
 ```
 
+หรือ (Node.js is required)
+
+```
+node index.js
+```
+
 เลือกหมวดหมู่ของคำ โดยพิมพ์เลขของหมวดหมู่ที่ต้องการเลือก
 
 ```

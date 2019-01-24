@@ -11,7 +11,7 @@ fs.readdirSync("./category").forEach(fileName => {
   );
 });
 
-const selectedCat = selectCategory(categories);
+const selectedCategory = selectCategory(categories);
 
-const { hint, word } = getRandomArrayElement(selectedCat);
+const { hint, word } = getRandomArrayElement(selectedCategory);
 play(word, hint);

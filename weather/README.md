@@ -22,6 +22,12 @@ Linux
 weather-linux weather.xml
 ```
 
+หรือ (Node.js is required)
+
+```
+node index.js weather.xml
+```
+
 จะได้ไฟล์ json ขึ้นมาใหม่ชื่อ ตามชื่อของไฟล์ xml ที่ได้รับเข้ามา (เช่น weather.json)
 
 ```
