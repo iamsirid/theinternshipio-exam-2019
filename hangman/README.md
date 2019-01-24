@@ -72,29 +72,11 @@ USPresident.json
 
 ```
 
-โดย name คือชื่อของ Category
-words คือ array ของข้อมูลแต่ละคำซึ่งประกอบด้วย hint (คำใบ้) และ word (คำที่ใช้เล่น)
+โดย name คือชื่อของ Category  
+words คือ array ของข้อมูลแต่ละคำซึ่งประกอบด้วย hint (คำใบ้) และ word (คำที่ใช้เล่น)  
 การเพิ่ม category ใหม่สามารถทำได้โดยเพิ่มไฟล์ .json (ชื่อไฟล์อะไรก็ได้) ลงใน directory category ตามรูปแบบข้างต้น
-
-## Package
-
-Node Package ที่ได้ใช้
-
-readlineSync
-https://www.npmjs.com/package/readline-sync
 
 ## References
 
-แหล่งข้อมูลที่ได้สืบค้นและได้นำมาประยุกต์ใช้กับโปรเจค Hangman
-
-How to check if character is a letter in Javascript?  
-https://stackoverflow.com/questions/9862761/how-to-check-if-character-is-a-letter-in-javascript
-
-Javascript replace char at index  
-https://gist.github.com/efenacigiray/9367920
-
-How to check whether a string contains a substring in JavaScript?  
-https://stackoverflow.com/questions/1789945/how-to-check-whether-a-string-contains-a-substring-in-javascript
-
-How do you get a list of the names of all files present in a directory in Node.js?  
-https://stackoverflow.com/questions/2727167/how-do-you-get-a-list-of-the-names-of-all-files-present-in-a-directory-in-node-j
+Generating random whole numbers in JavaScript in a specific range
+https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range

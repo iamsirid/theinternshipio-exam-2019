@@ -3,7 +3,7 @@ const isNumber = char => char.match(/^\d+$/);
 const replaceAt = (str, index, char) =>
   str.substring(0, index) + char + str.substring(index + 1);
 
-// Random int in range algorithm from
+// Generating random whole numbers in JavaScript in a specific range
 // https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
 const getRandomInt = (min, max) => {
   min = Math.ceil(min);

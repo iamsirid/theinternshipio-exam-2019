@@ -33,20 +33,3 @@ node index.js weather.xml
 ```
 The file (weather.json) was saved
 ```
-
-## Packages
-
-Node Package ที่ได้ใช้
-
-jsdom  
-https://www.npmjs.com/package/jsdom
-
-## References
-
-แหล่งข้อมูลที่ได้สืบค้นและได้นำมาประยุกต์ใช้กับโปรเจค Weather
-
-How do I pass command line arguments to a Node.js program?  
-https://stackoverflow.com/questions/4351521/how-do-i-pass-command-line-arguments-to-a-node-js-program
-
-Reading a file with Node.js - blocking and non-blocking  
-https://code-maven.com/reading-a-file-with-nodejs
