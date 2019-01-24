@@ -78,5 +78,5 @@ words คือ array ของข้อมูลแต่ละคำซึ่�
 
 ## References
 
-Generating random whole numbers in JavaScript in a specific range
+Generating random whole numbers in JavaScript in a specific range  
 https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
