@@ -22,7 +22,15 @@ Linux
 weather-linux weather.xml
 ```
 
-หรือ (Node.js is required)
+หรือ กรณีมีการติดตั้ง Node.js บนอุปกรณ์ที่ใช้ Run
+
+ทำการ install โปรเจคก่อน
+
+```
+npn install
+```
+
+และ run คำสั่งด้านล่าง
 
 ```
 node index.js weather.xml
